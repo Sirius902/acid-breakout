@@ -1,4 +1,3 @@
-import "./style.css";
 import { GameLoop } from "./game_loop";
 import GameContext from "./GameContext";
 import { Vector3 } from "./lib/cuon-matrix-cse160";
