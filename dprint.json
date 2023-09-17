@@ -7,7 +7,9 @@
     "arrowFunction.useParentheses": "force"
   },
   "excludes": [
-    "**/node_modules"
+    "node_modules/**",
+    "dist/**",
+    "dist-ssr/**"
   ],
   "plugins": [
     "https://plugins.dprint.dev/typescript-0.87.1.wasm",
