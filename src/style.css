@@ -1,0 +1,26 @@
+:root {
+  color-scheme: dark;
+  --padding: 0.5rem;
+}
+
+body {
+  background-color: #101010;
+  font-family: 'Courier New', Courier, monospace;
+  color: #eee;
+}
+
+section {
+  margin: var(--padding);
+}
+
+.centered {
+  display: block;
+  margin: auto;
+}
+
+#game-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--padding);
+}
