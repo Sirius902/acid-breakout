@@ -27,6 +27,7 @@ export class GameLoop {
       }
 
       this.ctx.time = time;
+      this.ctx.gameplayFrames++;
       this.frameFn(this.ctx);
     };
 
